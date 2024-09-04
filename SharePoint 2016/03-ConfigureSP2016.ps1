@@ -4,7 +4,7 @@ $DBServer = "SP2016SQL"
 $ConfigDB = "SP2016_Config"
 $AdminContentDB = "SP2016_Content_Admin"
 $Passphrase = "sharepoint"
-$distCacheHost = $false
+$distCacheHost = $true
 $role = "WebFrontEndWithDistributedCache"
 
 if($distCacheHost -eq $false){
